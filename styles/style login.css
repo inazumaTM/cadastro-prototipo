@@ -1,0 +1,103 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #2c7886;
+}
+.container{
+    position: relative;
+    background: rgb(131,58,180);
+    background: linear-gradient(45deg, rgba(131,58,180,1) 19%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    height: 70%;
+    border-radius: 30px;
+    box-shadow: 0 0 30px 3px rgb(206, 69, 69);
+}
+.container .fa{
+    width: 1em;
+    font-size: 3vw;
+    text-align: center;
+}
+.password-box{
+    padding-top: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    place-content: center;
+}
+input{
+    height: 3vh;
+    width: 30vw;
+    font-size: 1.3em;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 2px 2px 10px 3px black;
+}
+.fa-eye:hover, .fa-eye-slash:hover{
+    cursor: pointer;
+}
+.fa-eye:active, .fa-eye-slash:active{
+    cursor: default;
+}
+.register{
+    text-decoration: none;
+    padding: 5px;
+    background-color: rgb(128, 189, 37);
+    color: #a3fcff;
+    font-weight: bold;
+    transition: all 250ms;
+    border-radius: 16px;
+    padding: 10px;
+    box-shadow: 0 0 3px 3px rgb(0, 0, 0);
+    min-width: 105.4px;
+    width: 20vw;
+    max-width: 205.4px;
+    height: 3vh;
+    text-align: center;
+    word-wrap: break-word;
+}
+.register:hover{
+    transform: scale(1.08);
+    box-shadow: 0 0 5px 3px greenyellow;
+    background-color: greenyellow;
+    color: #2f00ff;
+}
+.register:active{
+    transform: scale(1);
+}
+.login{
+    width: 13vw;
+    height: 7vh;
+    border: solid 2px #3a97ab;
+    border-radius: 13px;
+    cursor: pointer;
+    background-color: #3a97ab;
+    box-shadow: 0 0 3px 3px #3d9db2;
+    transition: 250ms;
+    font-weight: bold;
+    color: greenyellow;
+}
+.login:hover{
+    transform: scale(1.08);
+    background-color: #52d8f6;
+    box-shadow: 0 0 3px 3px #6cd7ef;
+    color: rgb(17, 24, 6);
+}
+.login:active{
+    transform: scale(1);
+}
+span{
+    font-size: 1.4em;
+    position: absolute;
+    top: 5%;
+    border-bottom: 2px solid white;
+    padding: 0;
+}
+

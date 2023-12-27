@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/style register.css">
+    <title>Registrar</title>
+</head>
+<body>
+    <div class="container">
+        <span class="infoR"></span>
+        <div id="icon">
+            <i class="fa fa-envelope-o" ></i>
+            <i class="fa fa-lock ifirst"></i>
+            <i class="fa fa-lock iconfirm"></i>
+            <i class="fa fa-eye" onclick="showHide()"></i>
+        </div>
+        <form name="Register">
+            <div class="email-box">
+                <input type="text" class="email" name="email" placeholder="Insira seu e-mail">
+            </div>
+            <div class="password-box">
+                <input type="password" class="password" name="password" placeholder="Insira sua senha">
+                <input type="password" class="password confirm" name="password" placeholder="Repita sua senha">
+            </div>
+        </form>
+        <button class="register" onclick="verify()">Registrar</button>
+        <p>Já é resgistrado?</p>
+        <a href="index.html" class="login">Faça login</a>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

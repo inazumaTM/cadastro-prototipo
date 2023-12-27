@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles/style login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <span class="info"></span>
+        <form name="login">
+            <div class="email-box">
+                <i class="fa fa-envelope-o"  ></i>
+                <input class="email" type="email" placeholder="Insira seu e-mail">
+            </div>
+            <div class="password-box">
+                <i class="fa fa-lock" ></i>
+                <input type="password" class="password" placeholder="Insira sua senha">
+                <i class="fa fa-eye"  onclick="showHide()"></i>
+            </div>
+        </form>
+        <button class="login" onclick="verify()">Login</button>
+        <p style="margin: 10px 0;">Não é registrado?</p>
+        <a href="register.html" class="register">Registrar-se</a>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
